@@ -35,3 +35,18 @@ Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
 2. Accede a la carpeta del proyecto:
     ```bash
     cd GifExpertApp
+
+3. Instala las dependencias:
+    ```bash
+    npm install
+
+4. Inicia la aplicación en modo desarrollo:
+    ```
+    npm run dev
+
+## 🧪 Cómo usar la app
+
+1. Escribe una categoría en el campo de búsqueda (por ejemplo: Dragon Ball, Perros, LOL).
+2. Presiona **Enter**.
+3. La app mostrará una galería de GIFs animados.
+4. Puedes seguir agregando categorías sin perder las anteriores.
