@@ -8,15 +8,13 @@ const AddCategory = ({ handleAddCategory }) => {
     const handleSubmit = e => {
         e.preventDefault();
 
-        if(inputValue.trim().length < 1) return;
-
         handleAddCategory(inputValue.trim()); 
 
         setInputValue("");
     }
 
     return (
-        <form onSubmit={ handleSubmit }>
+        <form onSubmit={ handleSubmit } aria-label="form">
             <input 
                 type="text"
                 placeholder="Buscar Gifs...."
@@ -41,4 +39,4 @@ const AddCategory = ({ handleAddCategory }) => {
     )
 }
 
-export default AddCategory
+export default AddCategory;
